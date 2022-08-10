@@ -1,0 +1,74 @@
+html{
+  height: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#acf9; 
+}
+.container {
+  box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #AA6C39;
+}
+.screen {
+  margin: 0;
+  background-color: #cfcfcf;
+  font-size: 64px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: default;
+  user-select: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.screen span {
+  display: inline-block;
+  width: 85px;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  margin: 10px -5px 0;
+}
+
+.buttons button {
+  flex: 1;
+  margin: 0 5px;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  color: ;
+  background-color: #88CC88;
+  outline: none;
+  cursor: pointer;
+}
+.buttons button:hover {
+  color: #88CC88;
+  background-color: #061539;
+}
+.title p{
+  font-size: 48px;
+  width:60%;
+  margin:50px;
+  border:solid 5px;
+  border-color: #111;
+  border-radius: 20px;
+  background-color:orangered;
+  color:#fff;
+  border-left-width: 50px;
+  border-right-width: 50px;
+  box-shadow: 2px 2px 8px purple;
+  font-family:serif;
+}
+p:hover{
+  background-color: white;
+  color: orangered;
+}
