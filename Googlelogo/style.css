@@ -1,0 +1,25 @@
+body{
+    background-image: url(1.jpeg);
+    background-size:cover;
+    background-repeat:initial;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+.box h1{
+    width: 400px;
+    height: 400px;
+    background-image: conic-gradient(from -25deg at 40% 51%,
+     red 0deg,red 90deg,blue 90deg,blue 180deg,
+     green 180deg,green 270deg,yellow 270deg,yellow 360deg);
+    font-size: 30em;
+    margin-top: 20px;
+    padding-bottom: 275px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
