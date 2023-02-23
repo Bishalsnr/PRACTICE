@@ -1,13 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background: #000;
+    background: darkgoldenrod;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .tiktok{
+
     position: relative;
     width: 37px;
     height: 218px;
@@ -19,6 +20,7 @@ body{
     top: -60px;
 }
 .tiktok::before{
+    
     content: "";
     position: absolute;
     width: 100px;
@@ -46,4 +48,17 @@ body{
     transform: rotate(45deg);
     z-index: -10;
     filter: drop-shadow(14px 0 0 #fe2d52);
+}
+.all{
+    border: solid;
+    border-color: white;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: #000;
+}
+h2{
+    font-size: 90px;
+    text-align: center;
+    
 }
